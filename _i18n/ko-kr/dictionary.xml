@@ -11166,7 +11166,6 @@
   <block id="8a13d1a5338f1794b0454274eb4286a1" category="summary">Active IQ Unified Manager에서는 REST API를 사용하여 스토리지 환경을 모니터링 및 관리하는 방법에 대한 정보를 볼 수 있습니다. API를 사용하면 정책에 따라 스토리지 객체를 프로비저닝 및 관리할 수 있습니다.</block>
   <block id="12d49648274bb61cf34ecef5c6ec1acc" category="doc">Unified Manager REST API 사용</block>
   <block id="3c7317176d7c7efc96ac34c6081c3782" category="paragraph">Unified Manager가 지원하는 API 게이트웨이를 사용하여 모든 ONTAP 관리 클러스터에서 ONTAP API를 실행할 수도 있습니다.</block>
-  <block id="6b4f58d10ed3b35bb65050a16ca6ac3d" category="paragraph">Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오<block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>.</block>
   <block id="f63bfd0f21322837ec283a9385287658" category="summary">스위치오버 또는 스위치백을 트리거하는 이벤트는 활성 볼륨을 재해 복구 그룹의 다른 클러스터로 이동합니다. 활성 상태이고 클라이언트에 데이터를 제공하는 클러스터의 볼륨이 중지되고 다른 클러스터의 볼륨이 활성화되며 데이터 제공을 시작합니다. Unified Manager는 활성 상태이고 실행 중인 볼륨만 모니터링합니다.</block>
   <block id="7edc2199c58b1da2fb3f4eafb729d425" category="paragraph">볼륨이 한 클러스터에서 다른 클러스터로 이동되므로 두 클러스터를 모두 모니터링하는 것이 좋습니다. Unified Manager의 단일 인스턴스가 MetroCluster 구성에서 두 클러스터를 모두 모니터링할 수 있지만, 두 위치 간 거리가 필요한 경우 두 Unified Manager 인스턴스를 사용하여 두 클러스터를 모니터링해야 하는 경우도 있습니다. 다음 그림에서는 Unified Manager의 단일 인스턴스를 보여 줍니다.</block>
   <block id="1f627cf53c59c3dcb003a3d36f72e53e" category="image-alt">Unified Manager의 단일 인스턴스를 보여 주는 UI 스크린샷입니다.</block>
@@ -11974,4 +11973,8 @@
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Manager에서 감사 로그를 원격 syslog 서버로 보내는 데 사용됩니다.</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Active IQ Unified Manager 호스트에서 Java를 업데이트한 후 서비스가 시작되지 않습니다</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Unified Manager 호스트에 하나의 Java 버전만 설치해야 합니다. 그렇지 않으면 시스템에서 사용할 버전을 확인하지 못할 수 있습니다. 을<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="cc8fe7d78ffdf74546d47ee78ae65dce" category="inline-link-macro">Active IQ Unified Manager REST API 시작하기</block>
+  <block id="f6952e0b11db7160562f18106a9c16d6" category="paragraph">Unified Manager REST API에 대한 정보는 다음을 참조하세요.<block ref="7c769569c7bbad9af49bc30dbb82753d" category="inline-link-macro-rx"></block> .</block>
+  <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15일간의 성능 데이터를 수집하는 데는 CPU가 많이 사용됩니다.  NetApp 너무 많은 클러스터에서 동시에 데이터 연속성 수집 폴링이 실행되지 않도록 새 클러스터를 추가하는 작업을 단계적으로 수행할 것을 권장합니다.  또한, 데이터 연속성 수집 기간 동안 Unified Manager를 다시 시작하면 수집이 중단되고 누락된 기간의 성능 차트에 간격이 표시됩니다.</block>
+  <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">9.14.1 이상 버전의 ONTAP 클러스터를 추가하면 클라우드 에이전트 기능을 통해 통신이 이루어집니다.  ONTAP 읽기 전용 권한이 있는 내부 서비스 계정 사용자(예: clus-agent-xxxx)를 자동으로 생성합니다.  Unified Manager는 다음과 같은 경우 해당 클러스터에서 데이터 수집을 중지합니다.<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block> 사용자가 삭제되었습니다.</block>
 </blocks>
