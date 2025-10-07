@@ -3170,7 +3170,6 @@
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">복원 * 을 클릭합니다.</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">복원 프로세스가 시작됩니다. 백엔드에서 작업을 생성하여 복원 프로세스를 완료합니다.</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">작업 진행률을 보려면 왼쪽 탐색 창에서 * 보호 &gt; 작업 * 으로 이동하여 작업 목록에서 복원 작업의 상태를 확인합니다.</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">NDMP 오류가 있는 Cloud Volumes ONTAP HA 클러스터 간에 복구 작업이 실패할 경우 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있도록 타겟 클러스터에 명시적 AWS 경로를 추가해야 할 수 있습니다. BlueXP를 사용하여 이 구성 단계를 수행합니다.</block>
   <block id="7d85117aeb6dd780b49fc8bc5df44937" category="summary">예약된 전송 발생을 중지하기 위해 관계를 중단한 후 Resume을 사용하여 소스 또는 운영 볼륨의 데이터가 보호되도록 예약된 전송을 다시 활성화할 수 있습니다. 체크포인트가 있는 경우 다음 예약된 전송 간격에 다시 시작됩니다.</block>
   <block id="f7badd266fb3b7da14e5a44e940795fe" category="doc">볼륨 관계 페이지에서 중지된 관계에서 예약된 전송을 다시 시작합니다</block>
   <block id="c49784c79b4a831f938c96963dfe9e09" category="paragraph">예약된 전송 발생을 중지하기 위해 관계를 중단한 후 * Resume * 을 사용하여 소스 또는 기본 볼륨의 데이터가 보호되도록 예약된 전송을 다시 활성화할 수 있습니다. 체크포인트가 있는 경우 다음 예약된 전송 간격에 다시 시작됩니다.</block>
@@ -11977,4 +11976,5 @@
   <block id="f6952e0b11db7160562f18106a9c16d6" category="paragraph">Unified Manager REST API에 대한 정보는 다음을 참조하세요.<block ref="7c769569c7bbad9af49bc30dbb82753d" category="inline-link-macro-rx"></block> .</block>
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15일간의 성능 데이터를 수집하는 데는 CPU가 많이 사용됩니다.  NetApp 너무 많은 클러스터에서 동시에 데이터 연속성 수집 폴링이 실행되지 않도록 새 클러스터를 추가하는 작업을 단계적으로 수행할 것을 권장합니다.  또한, 데이터 연속성 수집 기간 동안 Unified Manager를 다시 시작하면 수집이 중단되고 누락된 기간의 성능 차트에 간격이 표시됩니다.</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">9.14.1 이상 버전의 ONTAP 클러스터를 추가하면 클라우드 에이전트 기능을 통해 통신이 이루어집니다.  ONTAP 읽기 전용 권한이 있는 내부 서비스 계정 사용자(예: clus-agent-xxxx)를 자동으로 생성합니다.  Unified Manager는 다음과 같은 경우 해당 클러스터에서 데이터 수집을 중지합니다.<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block> 사용자가 삭제되었습니다.</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">NDMP 오류로 인해 Cloud Volumes ONTAP HA 클러스터 간 복원 작업이 실패하는 경우 대상 클러스터에 명시적인 AWS 경로를 추가해야 할 수 있습니다. 그래야 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있습니다.  NetApp 콘솔을 사용하여 이 구성 단계를 수행합니다.</block>
 </blocks>
