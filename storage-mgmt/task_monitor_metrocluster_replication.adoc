@@ -29,7 +29,7 @@ MetroCluster over IP 구성의 경우 Unified Manager의 왼쪽 탐색 창에서
 * * 보호 * > * 관계 * > * 관계: MetroCluster * 보기
 
 
-자세한 내용은 을 link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["MetroCluster over IP의 연결 문제를 모니터링합니다"]참조하십시오.
+자세한 내용은 link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["MetroCluster over IP의 연결 문제를 모니터링합니다"]를 참조하십시오.
 
 
 
