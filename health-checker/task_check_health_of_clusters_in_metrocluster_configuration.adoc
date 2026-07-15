@@ -22,6 +22,7 @@ Active IQ Unified Manager(Unified Manager)를 사용하면 MetroCluster over FC 
 
 
 
+[[determining-cluster-health-in-metrocluster-over-fc-configuration]]
 == MetroCluster over FC 구성에서 클러스터 상태 확인
 
 MetroCluster over FC 구성에서 클러스터 상태를 확인하려면 다음 단계를 수행하십시오.
@@ -60,6 +61,7 @@ image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager MetroCluster 
 
 
 
+[[determining-cluster-health-in-metrocluster-over-ip-configuration]]
 == MetroCluster over IP 구성에서 클러스터 상태 확인
 
 MetroCluster over IP 구성에서 클러스터 상태를 확인하려면 다음 단계를 수행하십시오.

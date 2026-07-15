@@ -42,6 +42,7 @@ Unified Manager에는 다음과 같은 유형의 PSL이 있습니다.
 
 
 
+[[managing-workloads-by-assigning-psls]]
 == PSL을 할당하여 작업 부하 관리
 
 PSL은 * Policies * > * Performance Service Levels * 페이지에서, 그리고 스토리지 공급자 API를 사용하여 액세스할 수 있습니다. 스토리지 작업 부하를 개별적으로 관리할 필요가 없으며 PSL을 할당하여 스토리지 작업 부하를 관리하는 것이 편리합니다. 모든 수정 사항은 개별적으로 관리하는 대신 다른 PSL을 다시 할당하여 관리할 수도 있습니다. Unified Manager를 사용하면 내부 평가 및 권장사항을 기반으로 워크로드에 PSL을 할당할 수 있습니다.
@@ -136,6 +137,7 @@ PSL에 할당된 스토리지 워크로드 수입니다.
 
 
 
+[[events-generated-for-workloads-breaching-the-threshold-defined-by-psls]]
 === 작업 부하에 대해 생성된 이벤트가 PSL에서 정의한 임계값을 초과합니다
 
 워크로드가 이전 시간 중 예상 지연 시간 값을 30%까지 초과할 경우 Unified Manager에서 다음 이벤트 중 하나를 생성하여 잠재적 성능 문제를 알립니다.
@@ -156,6 +158,7 @@ PSL에 할당된 스토리지 워크로드 수입니다.
 
 
 
+[[system-defined-psls]]
 === 시스템 정의 PSL
 
 다음 표에는 시스템 정의 PSL에 대한 정보가 나와 있습니다.
